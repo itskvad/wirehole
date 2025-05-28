@@ -63,7 +63,7 @@ services:
       - 1.1.1.2 # cf
     environment:
       TZ: "Australia/Melbourne"
-      WEBPASSWORD: "$2b$10$8K1p/a0dR1LXMIgoEDFrwOfgqwGzKxqQYwJ1YwYqKxYqKxYqKxYqK" # This is an encrypted password for "wirehole"
+      WEBPASSWORD: "12345"
       ServerIP: 10.2.0.100 # Internal IP of pihole
       DNS1: 1.1.1.2 # Cloudflare malware blocking
       DNS2: 1.1.1.3 # Cloudflare malware blocking
